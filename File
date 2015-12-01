@@ -1,0 +1,10 @@
+1.
+一开始创建这个项目后，基本的一个操作是给这个APP的名字取好（取名为网易新闻）。在项目——》TARGETS——》Info ——》Custom iOS Target Properties ——》 Bundle name.  这里进行修改！（我改成了“网易新闻超级弱弱版”）。
+
+2.
+创建一个 readme 文件，使用 Header file 创建， 并且不需要加入到工程当中，并将后缀.h去掉。 这个文件的作用主要是记录版本更新，修改记录等内容。
+
+3. 接下来创建目录，使项目有着更好的结构和逻辑。
+   除此之外可以创建一个常量的定义文件。（Head file）
+
+4. 将ViewController文件改名为 HomePage

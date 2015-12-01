@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		188B13C71C0DEA83005501F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 188B13C61C0DEA83005501F0 /* main.m */; };
 		188B13CA1C0DEA83005501F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 188B13C91C0DEA83005501F0 /* AppDelegate.m */; };
-		188B13CD1C0DEA83005501F0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188B13CC1C0DEA83005501F0 /* ViewController.m */; };
+		188B13CD1C0DEA83005501F0 /* HomePage.m in Sources */ = {isa = PBXBuildFile; fileRef = 188B13CC1C0DEA83005501F0 /* HomePage.m */; };
 		188B13D01C0DEA84005501F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188B13CE1C0DEA83005501F0 /* Main.storyboard */; };
 		188B13D21C0DEA84005501F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 188B13D11C0DEA84005501F0 /* Assets.xcassets */; };
 		188B13D51C0DEA84005501F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188B13D31C0DEA84005501F0 /* LaunchScreen.storyboard */; };
 		188B13E01C0DEA84005501F0 /* ________DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 188B13DF1C0DEA84005501F0 /* ________DemoTests.m */; };
 		188B13EB1C0DEA84005501F0 /* ________DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 188B13EA1C0DEA84005501F0 /* ________DemoUITests.m */; };
+		188B13F91C0DEADA005501F0 /* File in Resources */ = {isa = PBXBuildFile; fileRef = 188B13F81C0DEADA005501F0 /* File */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +40,8 @@
 		188B13C61C0DEA83005501F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		188B13C81C0DEA83005501F0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		188B13C91C0DEA83005501F0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		188B13CB1C0DEA83005501F0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		188B13CC1C0DEA83005501F0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		188B13CB1C0DEA83005501F0 /* HomePage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomePage.h; sourceTree = "<group>"; };
+		188B13CC1C0DEA83005501F0 /* HomePage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomePage.m; sourceTree = "<group>"; };
 		188B13CF1C0DEA83005501F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		188B13D11C0DEA84005501F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		188B13D41C0DEA84005501F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +52,9 @@
 		188B13E61C0DEA84005501F0 /* 网易新闻阅读器的DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "网易新闻阅读器的DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		188B13EA1C0DEA84005501F0 /* ________DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________DemoUITests.m"; sourceTree = "<group>"; };
 		188B13EC1C0DEA84005501F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		188B13F81C0DEADA005501F0 /* File */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = File; sourceTree = "<group>"; };
+		18F3923F1C0DF65400782938 /* Readme */ = {isa = PBXFileReference; lastKnownFileType = text; path = Readme; sourceTree = "<group>"; };
+		18F392471C0DF8DA00782938 /* Defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Defines.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 		188B13B91C0DEA83005501F0 = {
 			isa = PBXGroup;
 			children = (
+				18F3923F1C0DF65400782938 /* Readme */,
+				188B13F81C0DEADA005501F0 /* File */,
 				188B13C41C0DEA83005501F0 /* 网易新闻阅读器的Demo */,
 				188B13DE1C0DEA84005501F0 /* 网易新闻阅读器的DemoTests */,
 				188B13E91C0DEA84005501F0 /* 网易新闻阅读器的DemoUITests */,
@@ -103,12 +109,15 @@
 			children = (
 				188B13C81C0DEA83005501F0 /* AppDelegate.h */,
 				188B13C91C0DEA83005501F0 /* AppDelegate.m */,
-				188B13CB1C0DEA83005501F0 /* ViewController.h */,
-				188B13CC1C0DEA83005501F0 /* ViewController.m */,
-				188B13CE1C0DEA83005501F0 /* Main.storyboard */,
-				188B13D11C0DEA84005501F0 /* Assets.xcassets */,
-				188B13D31C0DEA84005501F0 /* LaunchScreen.storyboard */,
-				188B13D61C0DEA84005501F0 /* Info.plist */,
+				18F392401C0DF7C700782938 /* Global */,
+				18F392421C0DF7E900782938 /* Model */,
+				18F392411C0DF7D800782938 /* Controller */,
+				18F392431C0DF7F300782938 /* Network */,
+				18F392441C0DF82000782938 /* DB */,
+				18F392451C0DF83400782938 /* Utility */,
+				18F392461C0DF8BB00782938 /* ThirdSDK */,
+				18F392481C0DF91D00782938 /* Resource */,
+				18F392471C0DF8DA00782938 /* Defines.h */,
 				188B13C51C0DEA83005501F0 /* Supporting Files */,
 			);
 			path = "网易新闻阅读器的Demo";
@@ -138,6 +147,116 @@
 				188B13EC1C0DEA84005501F0 /* Info.plist */,
 			);
 			path = "网易新闻阅读器的DemoUITests";
+			sourceTree = "<group>";
+		};
+		18F392401C0DF7C700782938 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Global;
+			sourceTree = "<group>";
+		};
+		18F392411C0DF7D800782938 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18F392491C0DF97000782938 /* Page */,
+				18F3924B1C0DF98B00782938 /* Widget */,
+				18F3924A1C0DF97E00782938 /* Cell */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		18F392421C0DF7E900782938 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		18F392431C0DF7F300782938 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		18F392441C0DF82000782938 /* DB */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = DB;
+			sourceTree = "<group>";
+		};
+		18F392451C0DF83400782938 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		18F392461C0DF8BB00782938 /* ThirdSDK */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ThirdSDK;
+			sourceTree = "<group>";
+		};
+		18F392481C0DF91D00782938 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				18F3924D1C0DF9B800782938 /* Image */,
+				18F3924C1C0DF9A900782938 /* Config */,
+				18F3924E1C0DFB7800782938 /* Xib */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		18F392491C0DF97000782938 /* Page */ = {
+			isa = PBXGroup;
+			children = (
+				188B13CB1C0DEA83005501F0 /* HomePage.h */,
+				188B13CC1C0DEA83005501F0 /* HomePage.m */,
+			);
+			name = Page;
+			sourceTree = "<group>";
+		};
+		18F3924A1C0DF97E00782938 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		18F3924B1C0DF98B00782938 /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Widget;
+			sourceTree = "<group>";
+		};
+		18F3924C1C0DF9A900782938 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				188B13D61C0DEA84005501F0 /* Info.plist */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		18F3924D1C0DF9B800782938 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				188B13D11C0DEA84005501F0 /* Assets.xcassets */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		18F3924E1C0DFB7800782938 /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				188B13CE1C0DEA83005501F0 /* Main.storyboard */,
+				188B13D31C0DEA84005501F0 /* LaunchScreen.storyboard */,
+			);
+			name = Xib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +365,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				188B13F91C0DEADA005501F0 /* File in Resources */,
 				188B13D51C0DEA84005501F0 /* LaunchScreen.storyboard in Resources */,
 				188B13D21C0DEA84005501F0 /* Assets.xcassets in Resources */,
 				188B13D01C0DEA84005501F0 /* Main.storyboard in Resources */,
@@ -273,7 +393,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				188B13CD1C0DEA83005501F0 /* ViewController.m in Sources */,
+				188B13CD1C0DEA83005501F0 /* HomePage.m in Sources */,
 				188B13CA1C0DEA83005501F0 /* AppDelegate.m in Sources */,
 				188B13C71C0DEA83005501F0 /* main.m in Sources */,
 			);
@@ -501,6 +621,7 @@
 				188B13F11C0DEA84005501F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		188B13F21C0DEA84005501F0 /* Build configuration list for PBXNativeTarget "网易新闻阅读器的DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +630,7 @@
 				188B13F41C0DEA84005501F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		188B13F51C0DEA84005501F0 /* Build configuration list for PBXNativeTarget "网易新闻阅读器的DemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +639,7 @@
 				188B13F71C0DEA84005501F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
