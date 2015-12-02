@@ -8,3 +8,17 @@
    除此之外可以创建一个常量的定义文件。（Head file）
 
 4. 将ViewController文件改名为 HomePage
+
+5. 增加一个日志输出宏,主要用途是调试并且输出内容。输入在Define.h当中,并未将全部宏输入到Define.h当中
+
+6.在设置好Define.h文件之后，需要注意一个app在发布版本时需要进行的一些必要设置，我先列一下内容，然后详细讲解
+    Enterprise
+    AppStore
+    AdHoc    （在正式发布到AppStore之前，希望先在制定用户之间试用，然后进行完善修改，apple考虑到了这一点，就有了AdHoc版本）
+    TestCase
+上面的四个即是我们希望发布的app是哪一个版本的。
+要发布哪些版本首先需要在：PROJECT——》info ——》Configurations 中进行相应的添加，这里我们先添加前面三个类型的版本(以后不同的版本需要对应不同的证书)
+当以后需要发布选择版本的时候，选择是这样的：停止运行项目按钮的右边 ——》edit scheme ——》archive 这里面进行选择
+
+&接下来讲再哪里设置相关的证书
+Target——》building settings ——》Code signing ——》any iOS SDK 中进行对应的设置   （在这里设置好之后，以后在发布相应版本的时候就减少了相关的操作）
