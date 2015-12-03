@@ -1,0 +1,15 @@
+//
+//  NewsReader-Prefix.pch
+//  网易新闻阅读器的Demo
+//
+//  Created by apple on 15/12/3.
+//  Copyright © 2015年 Archy. All rights reserved.
+//
+
+#import <Availability.h>
+
+#ifdef __OBJC__        // 确保宏内引用的文件只被使用Objective-C语言的文件所引用，保证引用关系的清晰
+
+#import "Defines.h"
+
+#endif /* NewsReader_Prefix_pch */

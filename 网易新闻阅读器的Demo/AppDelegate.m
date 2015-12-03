@@ -7,14 +7,13 @@
 //
 
 #import "AppDelegate.h"
-#import "Defines.h"
 
 @implementation AppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    BASE_ERROR_FUN(self, _cmd, @"error");
+    BASE_INFO_FUN(@"App start!");    // 看看这一步老师的视屏中全局变量如何定义的，应该是进行了改动！果然已经修改！（修改内容已经注释。）
     return YES;
 }
 

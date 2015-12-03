@@ -16,9 +16,45 @@
     AppStore
     AdHoc    （在正式发布到AppStore之前，希望先在制定用户之间试用，然后进行完善修改，apple考虑到了这一点，就有了AdHoc版本）
     TestCase
+
 上面的四个即是我们希望发布的app是哪一个版本的。
+
 要发布哪些版本首先需要在：PROJECT——》info ——》Configurations 中进行相应的添加，这里我们先添加前面三个类型的版本(以后不同的版本需要对应不同的证书)
 当以后需要发布选择版本的时候，选择是这样的：停止运行项目按钮的右边 ——》edit scheme ——》archive 这里面进行选择
 
 &接下来讲再哪里设置相关的证书
 Target——》building settings ——》Code signing ——》any iOS SDK 中进行对应的设置   （在这里设置好之后，以后在发布相应版本的时候就减少了相关的操作）
+
+
+
+// 下一阶段要进行的内容简介
+1.添加预编译头文件
+2.整理相关目录
+3.添加app图标
+   1）加入网易新闻app图标
+   2）设置Images.xcassets
+4.点、渲染像素、物理像素、物理设备
+5.检查设备尺寸
+6.添加启动图
+   1）LaunchScreen.xib介绍
+   2）加入网易启动图
+
+
+关于第一点，由于define.h是几乎每个文件都需要使用的，所以我们可以创建一个预编译头文件，来节省这一步。
+一、在supporting files中创建 NewsReader-Prefix.pch
+二、添加完预编头文件之后，还要在项目中进行设置
+   target--->building setting ---> apple llvm ** - Language ---> Prefix Header   写上这个文件的地址（详细地址请参考开设置中已经设置好的内容！）.然后可以编译一下
+   & 同时注意要将其中的选项 Precomplie Prefix Header 设置为YES
+
+
+
+
+
+
+
+
+
+
+
+
+
